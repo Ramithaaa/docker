@@ -5,8 +5,8 @@ services:
          restart: always
          environment:
                POSTGRES_PASSWORD: admin123
+         ports:
+                 - "5432:5432"
     redis:
          image: redis
          
-
-
