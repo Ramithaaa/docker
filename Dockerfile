@@ -1,3 +1,3 @@
-FROM httpd
+FROM nginx
 WORKDIR /app
 EXPOSE 80 
