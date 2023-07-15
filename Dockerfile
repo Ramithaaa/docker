@@ -1,4 +1,3 @@
 FROM nginx
-RUN mkdir -p /opt/new
-WORKDIR /opt/new
+WORKDIR /app
 EXPOSE 80 
